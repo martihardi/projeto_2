@@ -118,7 +118,13 @@ width: 50;
 
 }
 
-
+.images {
+display: flex;
+flex-direction: column;
+width: 200px;
+justify-content: center;
+align-items: center;
+}
 
 
 ul{
