@@ -82,4 +82,91 @@ h3{
     font-size: 30px;
     background-color: rgb(41, 75, 90) ;
     border-radius: 15px;
-    }
+}
+
+@media (max-width: 600px){
+body{
+    background-color: rgb(88, 151, 170);
+    color: (37, 44, 54);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 99%;
+    height: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+
+margin: 15px;
+
+
+
+
+}
+
+img{
+
+
+border-radius: 15px;
+
+
+
+
+}
+
+
+
+
+ul{
+
+display: flex;
+flex-direction: column;
+   
+}
+    
+li{
+
+    font-family: sans-serif;
+
+    width: 180px;
+
+    height: 45px;
+        
+    background-color: rgb(235, 249, 255);
+        
+    margin: 15px;
+    
+    font-size: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+h2 {
+color: rgb(235, 249, 255);
+display: flex;
+flex-direction: columns;
+font-family: sans-serif;
+background-color: rgb(41, 75, 90);
+border-radius: 15px;
+
+}
+
+h3{
+    color: rgb(235, 249, 255);
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    font-size: 30px;
+    background-color: rgb(41, 75, 90) ;
+    border-radius: 15px;
+}
+
+}
